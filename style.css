@@ -1,0 +1,117 @@
+
+body {
+    font-size: 64px;
+    /* background-color: black; */
+}
+
+.btn {
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.silver {
+  background-color: silver;
+  color: black;
+}
+.orange {
+  background-color: rgb(107, 184, 214);
+}
+button {
+  font-size: 26px;
+  border-radius: 50%;
+ 
+}
+
+/*------------------Grid Section------------------- */
+.container {
+    margin: 0 auto;
+    padding: 1em;
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  grid-template-columns: 75px 75px 75px 75px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "header header header header" 
+  "ac plusMinus percent divide" 
+  "seven eight nine multiply1" 
+  "four five six minus" 
+  "one two three plus" 
+  "zeroZero circleCir decimalDec equal ";
+}
+
+.item-header {
+    grid-area: header;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+  .ac {
+    grid-area: ac;
+  }
+  .plusMinus{
+    grid-area: plusMinus;
+  }
+  .percent{
+    grid-area: percent;
+  }
+  .divide{
+    grid-area: divide;
+  }
+
+  .seven{
+    grid-area: seven;
+  }
+  .eight{
+    grid-area: eight;
+  }
+  .nine{
+    grid-area: nine;
+  }
+  .multiply{
+    grid-area: multiply1;
+  }
+
+  .four{
+    grid-area: four;
+  }
+  .five{
+    grid-area: five;
+  }
+  .six{
+    grid-area: six;
+  }
+  .minus{
+    grid-area: minus;
+  }
+
+  .one{
+    grid-area: one;
+  }
+  .two{
+    grid-area: two;
+  }
+  .three{
+    grid-area: three;
+  }
+  .plus{
+    grid-area: plus;
+  }
+
+  .zero{
+    grid-area: zeroZero;
+  }
+  .circle{
+    grid-area: circleCir;
+  }
+  .decimal{
+    grid-area: decimalDec;
+  };
+  .equal{
+    grid-area: equal;
+  }
+
